@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="flexcontent">СВОЙСТВА FLEX-КОНТЕЙНЕРА</div>
+    <div class="roditely">
+      <div class="kvadrat1">
+        <div class="cifra">1</div>
+        <div class="display-flex">
+          <div class="flex">display: flex;</div>
+          <div class="webkit">display: -webkit-flex;</div>
+          <div class="inline">
+            Назначения: запуск механизма Flexbox<br />
+            Возможные значения: flex / inline-flex
+          </div>
+        </div>
+      </div>
+      <div class="kvadrat2">
+        <div class="kvadratflex2">
+          <div class="vnutriniykvadratflex">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+          </div>
+          <div class="vnutriniyanadpisy">flex</div>
+        </div>
+        <div class="kvadratflex2">
+          <div class="vnutriniykvadratflex">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+          </div>
+          <div class="vnutriniyanadpisy">inline-flex</div>
+        </div>
+      </div>
+    </div>
+    <div class="roditely2">
+      <div class="kvadrat1">
+        <div class="cifra">2</div>
+        <div class="display-flex">
+          <div class="flex">flex-direction: row;</div>
+          <div class="webkit">-webkit-flex-direction;row</div>
+          <div class="inline">
+            Назначения: направления укладки элементов по осям<br />
+            Возможные значения: row / row-reverse / column / column-reverse
+          </div>
+        </div>
+      </div>
+      <div class="kvadrat2">
+        <div class="vnutriniykvadratrow-column">
+          <div class="kvadratrow">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+          </div>
+          <div class="nadpisyrow">row</div>
+          <div class="kvadratcolumn">
+            <div class="boxcolumn1"></div>
+            <div class="boxcolumn2"></div>
+            <div class="boxcolumn3"></div>
+          </div>
+          <div class="nadpisycolumn">column</div>
+        </div>
+        <div class="vnutriniykvadratreversi">
+          <div class="kvadratreverse-r">
+            <div class="boxreverse-r1"></div>
+            <div class="boxreverse-r2"></div>
+            <div class="boxreverse-r3"></div>
+          </div>
+          <div class="nadpisyreverse-r">row-reverse</div>
+          <div class="kvadratreverse-c">
+            <div class="boxcolumn1"></div>
+            <div class="boxcolumn2"></div>
+            <div class="boxcolumn3"></div>
+          </div>
+          <div class="nadpisyreverse-c">column-reverse</div>
+        </div>
+      </div>
+    </div>
+    <div class="roditely2">
+      <div class="kvadrat1">
+        <div class="cifra">3</div>
+        <div class="display-flex">
+          <div class="flex">flex-wrap: nowrap;</div>
+          <div class="webkit">-webkit-flex-wrap;nowrap</div>
+          <div class="inline">
+            Назначения: расположения элементов в одну или несколько строк<br />
+            Возможные значения: nowrap / wrap / wrap-reverse
+          </div>
+        </div>
+      </div>
+      <div class="kvadratwrapiki">
+        <div class="nowrapi">
+          <div class="kvadrat_nowrap">
+            <div class="box_nowrap1"></div>
+            <div class="box_nowrap2"></div>
+            <div class="box_nowrap3"></div>
+            <div class="box_nowrap4"></div>
+            <div class="box_nowrap5"></div>
+            <div class="box_nowrap6"></div>
+          </div>
+          <div class="nadpisy-nowrap">nowrap</div>
+        </div>
+        
+        <div class="wrap-and-wrap-reverse">
+          <div class="wrap">
+            <div class="box_wrap1"></div>
+            <div class="box_wrap2"></div>
+            <div class="box_wrap3"></div>
+            <div class="box_wrap4"></div>
+            <div class="box_wrap5"></div>
+            <div class="box_wrap6"></div>
+            <div class="box_wrap7"></div>
+            <div class="box_wrap8"></div>
+            <div class="box_wrap9"></div>
+          </div>
+          <div class="nadpisy-wrap">wrap</div>
+          <div class="wrap-reverse">
+            <div class="box_wrap-reverse1"></div>
+            <div class="box_wrap-reverse2"></div>
+            <div class="box_wrap-reverse3"></div>
+            <div class="box_wrap-reverse4"></div>
+            <div class="box_wrap-reverse5"></div>
+            <div class="box_wrap-reverse6"></div>
+            <div class="box_wrap-reverse7"></div>
+            <div class="box_wrap-reverse8"></div>
+            <div class="box_wrap-reverse9"></div>
+          </div>
+          <div class="napdisy-wrap-reverse">wrap-reverse</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="roditely2">
+      <div class="kvadrat1">
+        <div class="cifra">4</div>
+        <div class="display-flex">
+          <div class="flex">flex-flow: row nowrap;</div>
+          <div class="webkit">-webkit-flex-flow: row nowrap;</div>
+          <div class="inline">
+            Назначения: сокращённая запись для свойств flex-direction и flex-wrap<br />
+            Возможные значения: см. свойства 2 и 3
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="roditely2">
+      <div class="kvadrat1">
+        <div class="cifra">5</div>
+        <div class="display-flex">
+          <div class="flex">justify-content: flex-start;</div>
+          <div class="webkit">-webkit-justify-content: flex-start;</div>
+          <div class="inline">
+            Назначения: выравнивание flex-элементов по главной оси текущей строки<br />
+            Возможные значения: flex-start / flex-end / space-between / space-around
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="roditely2">
+      <div class="kvadrat1">
+        <div class="cifra">6</div>
+        <div class="display-flex">
+          <div class="flex">align-items: stretch;</div>
+          <div class="webkit">-webkit-align-items: stretch;</div>
+          <div class="inline">
+            Назначения: выравнивание flex-элементов вдоль поперечной оси<br />
+            Возможные значения: stretch / flex-start / flex-end / center / baseline
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="roditely2">
+      <div class="kvadrat1">
+        <div class="cifra">7</div>
+        <div class="display-flex">
+          <div class="flex">align-content: stretch;</div>
+          <div class="webkit">-webkit-align-content: stretch;</div>
+          <div class="inline">
+            Назначения: выравнивание строк flex-элементов<br />
+            Возможные значения: stretch / flex-start / flex-end / center / space-between / space-around
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
